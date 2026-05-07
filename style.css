@@ -1,0 +1,259 @@
+/* CONFIGURAÇÃO GERAL */
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+body {
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* FUNDO */
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+
+}
+
+/*MENU*/
+
+nav {
+
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+
+}
+
+
+/* LISTA MENU */
+
+nav ul {
+
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* LINKS MENU */
+
+nav a {
+
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 22px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    transition: 0.3s;
+}
+
+
+/* EFEITO MENU */
+
+nav a:hover {
+
+    background-color: #00bfff;
+    color: white;
+    transform: scale(1.05);
+
+}
+/* SEÇÕES */
+
+section {
+
+    padding: 60px 50px 60px;
+    scroll-margin-top: 80px;
+}
+
+/*TÍTULOS */
+h1 {
+
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-size: 45px;
+    margin-bottom: 20px;
+
+}
+
+/* SUBTÍTULOS */
+
+h2 {
+
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+
+}
+/* PARÁGRAFOS */
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 900px;
+
+}
+/*portfolio*/
+.projeto-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+/*texto do projeto*/
+.texto-projeto {
+    flex: 1;
+}
+/*Capa*/
+.capa-projeto img {
+    width: 320px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+}
+
+/*Galeria de Imagem*/
+.galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 25px;
+    border-radius: 20px;
+
+}
+
+/* IMAGENS */
+
+.galeria img {
+
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 20px;
+    transition: 0.3s;
+
+}
+
+/* EFEITO */
+
+.galeria img:hover {
+    transform: scale(1.05);
+}
+
+/* Sobre mim*/
+.sobre-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+    margin-top: 40px;
+}
+/*texto*/
+.texto-sobre {
+    flex: 1;
+}
+
+/*foto*/
+.foto-sobre img {
+width: 350px;
+border-radius: 25px;
+box-shadow: 0px 0px 35px, rgba(0, 0, 0, 0.5);
+}
+
+/*CONTATO*/
+.contato-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 120px;
+    margin-top: 20px;
+}
+
+.info-contato {
+    flex: 1;
+}
+
+/* FORMULÁRIO */
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: -80px;
+
+
+}
+
+/* INPUTS */
+input,
+textarea {
+
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+
+/* ÁREA DE MENSAGEM */
+
+textarea {
+
+    height: 150px;
+    resize: none;
+
+}
+/* BOTÃO */
+
+button {
+
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: #00bfff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+/* EFEITO BOTÃO */
+
+button:hover {
+
+    background-color: #009acd;
+
+}
+/* LINKS */
+
+a {
+
+    color: #00bfff;
+
+}
